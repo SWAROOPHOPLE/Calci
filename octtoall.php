@@ -1,4 +1,4 @@
-
+//comment
 <div class="container-fluid">
 <div class="row">
 <div class="col-sm-3">
@@ -24,7 +24,7 @@ else if($op=='hex')
 }
 else if($op=='bin')
 {
-	
+
 	$z =octdec($x);
     $z= decbin($z);
 }
@@ -42,7 +42,7 @@ else if($op=='Clear')
     <input type="radio" value="dec" name="op" <?php if($op=='dec') echo'checked'; ?> /> <b> Decimal </b>&nbsp;&nbsp;&nbsp;&nbsp;
     <input type="radio"  value="hex" name="op" <?php if($op=='hex') echo'checked'; ?> /> <b> Hexadecimal </b>&nbsp;&nbsp;&nbsp;&nbsp;
     <input type="radio"  value="bin" name="op" <?php if($op=='bin') echo'checked'; ?> /> <b> Binary </b>&nbsp;&nbsp;&nbsp;&nbsp;
-	  
+
 
 
 <br><br><br>
@@ -63,19 +63,3 @@ else if($op=='Clear')
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
